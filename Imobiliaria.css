@@ -140,18 +140,18 @@ body {
     line-height: 30px
 }
 
-.sessao-03 span{
+.sessao-03 span {
     color: darkmagenta;
 }
 
-.sessao-03 img{
-    width: 500px ;
+.sessao-03 img {
+    width: 500px;
     border-radius: 30px;
     height: 500px;
 }
 
 
-.sessao-04{
+.sessao-04 {
     background-color: #464d3d;
     padding: 180px;
     display: flex;
@@ -160,7 +160,7 @@ body {
     align-items: center;
 }
 
-.sessao-04 p{
+.sessao-04 p {
     color: white;
     font-weight: 700;
     font-size: 150%;
@@ -168,27 +168,34 @@ body {
     line-height: 30px
 }
 
-.maps{
+.maps {
     border-radius: 10px;
 }
 
-.sessao-04 img{
+.sessao-04 img {
     width: 50px;
 }
 
 
-footer{
+footer {
     padding: 40px;
     background-color: black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
-footer p{
+footer p {
     font-size: 25px;
     color: white;
 }
 
-footer img{
+footer img {
     width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
