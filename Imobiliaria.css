@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    background-color: #464d3d;
+    pad: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    padding: 40px;
+}
+
+header img {
+    width: 40px;
+}
+
+header h1 {
+    font-family: "Libre Baskerville", serif;
+    color: white;
+}
+
+.div-cabecalho ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div-cabecalho ul li {
+    list-style: none;
+}
+
+.div-cabecalho ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+body {
+    background-color: #88907e;
+}
+
+.sessao-01 {
+    padding: 200px;
+    background-image: url(imagens/Foto\ Principal.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sessao-01 button {
+    padding: 8px;
+    width: 150px;
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 30px;
+}
+
+
+.sessao-02 {
+    padding: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color: #676f5e;
+}
+
+.sessao-02 div {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.76);
+    text-align: center;
+    padding: 15px;
+}
+
+
+.div-01 {
+    background-image: url(imagens/FOTOOO.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-02 {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+    gap: 10px;
+}
+
+.div-02 p {
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 20px
+}
+
+.div-02 i {
+    color: #ecbe13
+}
+
+.div-03 img {
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-weight: 700;
+    color: white;
+    line-height: 20px
+}
+
+
+.sessao-03 {
+    padding: 150px;
+    background-color: #88907e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+
+.sessao-03 p {
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: "Libre Baskerville", serif;
+    line-height: 30px
+}
+
+.sessao-03 span{
+    color: darkmagenta;
+}
+
+.sessao-03 img{
+    width: 500px ;
+    border-radius: 30px;
+    height: 500px;
+}
+
+
+.sessao-04{
+    background-color: #464d3d;
+    padding: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.sessao-04 p{
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    font-family: "Libre Baskerville", serif;
+    line-height: 30px
+}
+
+.maps{
+    border-radius: 10px;
+}
+
+.sessao-04 img{
+    width: 50px;
+}
+
+
+footer{
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    font-size: 25px;
+    color: white;
+}
+
+footer img{
+    width: 40px;
+}
+
