@@ -48,31 +48,6 @@ header h1 {
     font-family: "Libre Baskerville", serif;
 }
 
-.box-busca {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: #88907e;
-    padding: 30px;
-}
-
-
-.search-box form {
-    display: flex;
-    border-radius: 60px;
-    background-color: #4c4c4c;
-    height: 45px;
-}
-
-
-.buttontopo {
-    border-radius: 15px;
-}
-
-
 
 .sessao1-form {
     background-color: #676f5e;
@@ -104,7 +79,7 @@ header h1 {
 
 
 .sessao2-form {
-    background-color: #88907e;
+    background-color:  #464d3dd2;
     padding: 180px;
     gap: 40px;
     display: flex;
@@ -114,7 +89,7 @@ header h1 {
 
 
 .sessao3-form {
-    background-color: #88907e;
+    background-color: #464d3dd2;
     padding: 150px;
     gap: 40px;
     display: flex;
@@ -146,16 +121,61 @@ header h1 {
     height: 300px;
 }
 
+.sessao4-form{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#464d3dd2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.divbotao{
+    padding: 8px;
+    width: 200px;
+    background-color: #464d3d;
+    border-radius: 30px;
+    color: white;
+    font-size: larger;
+}
+
+
+.sessao5-form {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    padding: 150px;
+    gap: 60px;
+    background-color: #464d3d;
+}
+
+
+
+.divsessao5{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 30px;
+    font-family: "Libre Baskerville", serif;
+
+}
+
 
 footer {
+    align-items: center;
     padding: 40px;
-    background-color: black;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    background-color: black;
+    
 }
 
 footer p {
