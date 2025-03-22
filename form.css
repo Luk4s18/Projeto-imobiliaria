@@ -2,10 +2,11 @@
 
 * {
     margin: 0;
-     list-style: none;
-     scroll-behavior: smooth; /*scroll suave nas transições*/
-     font-family: "Libre Baskerville", serif;
- }
+    list-style: none;
+    scroll-behavior: smooth;
+    /*scroll suave nas transições*/
+    font-family: "Libre Baskerville", serif;
+}
 
 
 
@@ -23,6 +24,7 @@ header {
 
 header img {
     width: 40px;
+    height: 50px
 }
 
 header h1 {
@@ -46,7 +48,7 @@ header h1 {
     font-family: "Libre Baskerville", serif;
 }
 
-.box-busca{ 
+.box-busca {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,17 +61,14 @@ header h1 {
 
 
 .search-box form {
-    
     display: flex;
     border-radius: 60px;
     background-color: #4c4c4c;
     height: 45px;
-
-
 }
 
 
-.buttontopo{
+.buttontopo {
     border-radius: 15px;
 }
 
@@ -82,155 +81,90 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-    
-    .sessao1-form p{
+}
+
+.sessao1-form p {
     color: darkgreen;
     font-size: 25px;
     font-weight: 700px;
     line-height: 30px;
-    background-color: rgba(255, 255, 255, 0.788);
+    background-color: rgba(255, 255, 255, 0.418);
     padding: 10px;
     font-family: "Libre Baskerville", serif;
     border-radius: 20px;
-    }
-    
-    .sessao1-form img{
-        border-radius: 30px;
-        width: 500px;
-        height: 500px;
-    }
-    
+}
+
+.sessao1-form img {
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+}
 
 
-    .sessao2-form {
+
+.sessao2-form {
     background-color: #88907e;
     padding: 180px;
-    gap: 20px;
+    gap: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    }
-    
-    .divform1 {
-        width: 300px;
-        height: 300px;
-    }
-
-    .spandiv1{
-        color: darkgreen;
-    }
-
-    .divform1 img{
-        width: 300px;
-        height: 300px;
-    }
-    
-    .divform2{
-        width: 300px;
-        height: 300px;
-    }
-
-    .spandiv2{
-        color: darkgreen;
-    }
+}
 
 
-    .divform2 img{
-        width: 300px;
-        height: 300px;
-    }
-    
-    .divform3{
-        width: 300px;
-        height: 300px;
-    }
-
-    .spandiv3{
-        color: darkgreen;
-    }
-
-
-    .divform3 img{
-        width: 300px;
-        height: 300px;
-    }
-
-    
-
-    .sessao3-form{
+.sessao3-form {
     background-color: #88907e;
     padding: 150px;
-    gap: 20px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagemformata {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    margin-top: 15px;
+}
+
+.imagemformata:hover {
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+}
+
+
+.spanformata {
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.divform {
+    width: 300px;
+    height: 300px;
+}
+
+
+footer {
+    padding: 40px;
+    background-color: black;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+    flex-direction: column;
+    gap: 10px;
+}
 
+footer p {
+    font-size: 25px;
+    color: white;
+}
 
-    .divform4 {
-        width: 300px;
-        height: 300px;
-    }
-
-    .spandiv4{
-        color: darkgreen;
-    }
-
-    .divform4 img{
-        width: 300px;
-        height: 300px;
-    }
-    
-    .divform5{
-        width: 300px;
-        height: 300px;
-    }
-
-    .spandiv5{
-        color: darkgreen;
-    }
-
-
-    .divform5 img{
-        width: 300px;
-        height: 300px;
-    }
-    
-    .divform6{
-        width: 300px;
-        height: 300px;
-    }
-
-    .spandiv6{
-        color: darkgreen;
-    }
-
-    .divform6 img{
-        width: 300px;
-        height: 300px;
-    }
-
-
-    footer {
-        padding: 40px;
-        background-color: black;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    footer p {
-        font-size: 25px;
-        color: white;
-    }
-    
-    footer img {
-        width: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+footer img {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
