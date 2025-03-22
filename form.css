@@ -1,5 +1,14 @@
 /* inicio da segunda página */
 
+* {
+    margin: 0;
+     list-style: none;
+     scroll-behavior: smooth; /*scroll suave nas transições*/
+     font-family: "Libre Baskerville", serif;
+ }
+
+
+
 
 header {
     background-color: #464d3d;
@@ -37,6 +46,34 @@ header h1 {
     font-family: "Libre Baskerville", serif;
 }
 
+.box-busca{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #88907e;
+    padding: 30px;
+}
+
+
+.search-box form {
+    
+    display: flex;
+    border-radius: 60px;
+    background-color: #4c4c4c;
+    height: 45px;
+
+
+}
+
+
+.buttontopo{
+    border-radius: 15px;
+}
+
+
 
 .sessao1-form {
     background-color: #676f5e;
@@ -48,12 +85,14 @@ header h1 {
     }
     
     .sessao1-form p{
-    color: white;
-    font-size: large;
-    font-weight: 700;
+    color: darkgreen;
+    font-size: 25px;
+    font-weight: 700px;
     line-height: 30px;
-    background-color: #464d3d;
+    background-color: rgba(255, 255, 255, 0.788);
     padding: 10px;
+    font-family: "Libre Baskerville", serif;
+    border-radius: 20px;
     }
     
     .sessao1-form img{
@@ -62,7 +101,8 @@ header h1 {
         height: 500px;
     }
     
-    
+
+
     .sessao2-form {
     background-color: #88907e;
     padding: 180px;
@@ -91,6 +131,11 @@ header h1 {
         height: 300px;
     }
 
+    .spandiv2{
+        color: darkgreen;
+    }
+
+
     .divform2 img{
         width: 300px;
         height: 300px;
@@ -100,6 +145,11 @@ header h1 {
         width: 300px;
         height: 300px;
     }
+
+    .spandiv3{
+        color: darkgreen;
+    }
+
 
     .divform3 img{
         width: 300px;
@@ -123,6 +173,10 @@ header h1 {
         height: 300px;
     }
 
+    .spandiv4{
+        color: darkgreen;
+    }
+
     .divform4 img{
         width: 300px;
         height: 300px;
@@ -133,6 +187,11 @@ header h1 {
         height: 300px;
     }
 
+    .spandiv5{
+        color: darkgreen;
+    }
+
+
     .divform5 img{
         width: 300px;
         height: 300px;
@@ -141,6 +200,10 @@ header h1 {
     .divform6{
         width: 300px;
         height: 300px;
+    }
+
+    .spandiv6{
+        color: darkgreen;
     }
 
     .divform6 img{
