@@ -81,19 +81,19 @@ header h1 {
 .sessao2-form {
     background-color:  #464d3dd2;
     padding: 180px;
-    gap: 40px;
+    gap: 80px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 
 .sessao3-form {
     background-color: #464d3dd2;
-    padding: 150px;
-    gap: 40px;
+    padding: 180px;
+    gap: 80px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -109,6 +109,7 @@ header h1 {
 .imagemformata:hover {
     box-shadow: 10px 10px 20px black;
     transition: 0.8s;
+    transform: scale(0.91) translate(5px, 5px);
 }
 
 
@@ -154,28 +155,34 @@ header h1 {
 }
 
 
-
-.divsessao5{
+.sessao5-form p {
     color: white;
     text-align: center;
     font-weight: 700;
     font-size: 150%;
     line-height: 30px;
     font-family: "Libre Baskerville", serif;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 10px;
+}
 
+
+.sessao5-form img {
+width: 600px;
+border-radius: 30px;
 }
 
 
 footer {
-    align-items: center;
     padding: 40px;
+    background-color: black;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    background-color: black;
-    
 }
 
 footer p {
