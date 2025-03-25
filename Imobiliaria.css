@@ -65,6 +65,9 @@ body {
     background-color: #464d3dc4;
     border-radius: 30px;
     color: white;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    transform: scale(0.91) translate(5px, 5px);
 }
 
 .sessao-02 {

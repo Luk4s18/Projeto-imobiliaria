@@ -42,10 +42,10 @@ header h1 {
     list-style: none;
 }
 
-.div-cabecalho ul li a {
-    text-decoration: none;
+.div-cabecalho ul li a:hover {
     color: white;
     font-family: "Libre Baskerville", serif;
+    transition: 0.8s;
 }
 
 
