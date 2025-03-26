@@ -1,7 +1,8 @@
 * {
-   margin: 0;
+    margin: 0;
     list-style: none;
-    scroll-behavior: smooth; /*scroll suave nas transições*/
+    scroll-behavior: smooth;
+    /*scroll suave nas transições*/
     font-family: "Libre Baskerville", serif;
 }
 
@@ -44,6 +45,24 @@ header h1 {
 }
 
 
+.div-cabecalho ul li a:hover{
+color: black;
+font-family: "Libre Baskerville", serif;
+transition: 0.8s;
+}
+
+.cadastre-se a {
+    text-decoration: none;
+    color: white;
+}
+
+.cadastre-se a:hover{
+    color: black;
+    font-family: "Libre Baskerville", serif;
+    transition: 0.8s;
+}
+
+
 body {
     background-color: #88907e;
 }
@@ -65,9 +84,13 @@ body {
     background-color: #464d3dc4;
     border-radius: 30px;
     color: white;
+}
+
+
+.sessao-01 button:hover {
     box-shadow: 10px 10px 20px black;
     transition: 0.8s;
-    transform: scale(0.91) translate(5px, 5px);
+    transform: scale(0.93) translate(5px, 5px);
 }
 
 .sessao-02 {
@@ -127,7 +150,7 @@ body {
 
 .sessao-03 {
     padding: 150px;
-    background-color: #88907e ;
+    background-color: #88907e;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -150,6 +173,7 @@ body {
     width: 500px;
     border-radius: 30px;
     height: 500px;
+    box-shadow: 10px 10px 30px black;
 }
 
 
@@ -172,6 +196,7 @@ body {
 
 .maps {
     border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
 }
 
 .sessao-04 img {
@@ -200,4 +225,8 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.iconesfooter {
+    color: white;
 }

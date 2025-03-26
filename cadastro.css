@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    /*scroll suave nas transições*/
+    font-family: "Libre Baskerville", serif;
+}
+
+
+
+.formulario {
+    padding: 300px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/Foto\ Principal.jpg);
+    background-size: cover;
+}
+
+.inpult-email {
+    background-color: white;
+    color: grey;
+    padding: 15px;
+    gap: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+
+.inpult-password{
+    background-color: white;
+    color: grey;
+    padding: 15px;
+    gap: 20px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+
+.botao{
+    border-radius: 80px;
+    width: 150px;
+    height: 30px;
+    
+}

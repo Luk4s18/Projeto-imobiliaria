@@ -42,11 +42,20 @@ header h1 {
     list-style: none;
 }
 
-.div-cabecalho ul li a:hover {
+
+.div-cabecalho ul li a {
+    text-decoration: none;
     color: white;
+}
+
+
+
+.div-cabecalho ul li a:hover {
+    color: black;
     font-family: "Libre Baskerville", serif;
     transition: 0.8s;
 }
+
 
 
 .sessao1-form {
@@ -144,6 +153,12 @@ header h1 {
 }
 
 
+.divbotao:hover{
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+    transform: scale(0.93) translate(5px, 5px);
+}
+
 .sessao5-form {
     display: flex;
     justify-content: space-evenly;
@@ -171,6 +186,7 @@ header h1 {
 .sessao5-form img {
 width: 600px;
 border-radius: 30px;
+box-shadow: 10px 10px 30px black;
 }
 
 
@@ -195,4 +211,8 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.iconefooter {
+    color: white;
 }
