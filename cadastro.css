@@ -6,16 +6,28 @@
     font-family: "Libre Baskerville", serif;
 }
 
-
-
-.formulario {
-    padding: 300px;
-    background-color: grey;
+.sessao1 {
+    padding: 90px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-image: url(imagens/Foto\ Principal.jpg);
     background-size: cover;
+
 }
+
+.sessao1 div{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
 
 .inpult-email {
     background-color: white;
@@ -25,7 +37,6 @@
     border-radius: 30px;
     width: 250px;
 }
-
 
 .inpult-password{
     background-color: white;
