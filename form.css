@@ -57,6 +57,18 @@ header h1 {
 }
 
 
+.cadastre-se a {
+    text-decoration: none;
+    color: white;
+}
+
+.cadastre-se a:hover{
+    color: black;
+    font-family: "Libre Baskerville", serif;
+    transition: 0.8s;
+}
+
+
 
 .sessao1-form {
     background-color: #676f5e;
