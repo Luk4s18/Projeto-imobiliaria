@@ -20,7 +20,7 @@ header {
 }
 
 header img {
-    width: 40px;
+    width: 20px;
 }
 
 header h1 {
@@ -52,11 +52,6 @@ transition: 0.8s;
 }
 
 
-.imgform{
-    width: 40px;
-}
-
-
 .sessao1 {
     padding: 90px;
     display: flex;
@@ -67,9 +62,15 @@ transition: 0.8s;
 
 }
 
+.imgform{
+    width: 45px;
+
+}
+
+
 .sessao1 div{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     background-color:rgba(214, 210, 210, 0.555);
     text-align: center;
     padding: 15px;
@@ -95,8 +96,8 @@ h2, p {
 .inpult-email {
     background-color: white;
     color:black;
-    padding: 15px;
-    gap: 20px;
+    padding: 2%;
+    gap: 5px;
     border-radius: 30px;
     width: 250px;
 }
@@ -104,12 +105,30 @@ h2, p {
 .inpult-password{
     background-color: rgb(255, 255, 255);
     color: black;
-    padding: 15px;
-    gap: 20px;
+    padding: 2%;
+    gap: 5px;
     border-radius: 30px;
     width: 250px;
 }
 
+
+.input-name{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2%;
+    gap: 5px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.input-number{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2%;
+    gap: 5px;
+    border-radius: 30px;
+    width: 250px;
+}
 
 .botao{
     border-radius: 80px;
