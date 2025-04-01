@@ -20,7 +20,7 @@ header {
 }
 
 header img {
-    width: 20px;
+    width: 40px;
 }
 
 header h1 {
@@ -130,7 +130,7 @@ h2, p {
     width: 250px;
 }
 
-.botao{
+.botao{  
     border-radius: 80px;
     width: 150px;
     height: 30px;
