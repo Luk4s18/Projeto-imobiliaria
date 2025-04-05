@@ -3,22 +3,22 @@
     margin: 0;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
-    background-color: grey;
+    background-color: rgb(32, 31, 31);
     padding: 15px;
     align-items: center;
 }
 
-header img{
+header img {
     width: 150px;
     height: auto;
 }
 
 
-header button{
+header button {
     width: 150px;
     padding: 3px;
     border: none;
@@ -27,7 +27,7 @@ header button{
 }
 
 
-header button:hover{
+header button:hover {
     background-color: white;
     transition: 0.8s;
     cursor: pointer;
@@ -35,12 +35,21 @@ header button:hover{
 }
 
 
-.section-01{
-    background: linear-gradient(180deg, rgba(2,0,36,1) 8.33%, rgba(0,212,255,1) 100%), url(imagens/img1.jpg);
+.section-1 {
+    padding: 300px;
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/img1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
+}          
 
-    padding: 200px;
+
+.section-1 p{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
 }
